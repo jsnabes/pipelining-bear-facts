@@ -1,0 +1,9 @@
+version: '1'
+services:
+  bear:
+    image: bear
+    container_name: bear
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./bear:/code
